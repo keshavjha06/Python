@@ -1,4 +1,14 @@
 # for loops
+obj = [2, 3, 5, 7, 9]
+for i in obj:
+    print(i * 2)
+
+# range (i, j) -> i to j-1
+summation = 0
+for j in range(1, 6):
+    summation = summation + j
+print("Summation is :", summation)
+
 for number in range(1, 10, 2):
     print("Attempt", number, number * ".")
 
@@ -32,6 +42,20 @@ number = 100
 while number > 0:
     print(number)
     number //= 2
+
+it = 10
+
+while it > 1:
+    if it == 9:
+        it = it - 1
+        continue
+    if it == 3:
+        break
+    print(it)
+
+    it = it - 1
+
+print("while execution is done")
 
 command = ""
 while command.lower() != "quit":
