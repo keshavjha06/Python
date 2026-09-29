@@ -1,0 +1,15 @@
+x = input("x: ")
+# print(type(x)) - str
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
+
+# Falsy - "" , 0 , None
+print(bool(""))
+print(bool(0))
+print(bool(None))
+print(bool("False")) # True
