@@ -60,7 +60,15 @@ def fact(num):
 print(fact(4))
 print(fact(5))
 
+#other types:
 def login(username, password):
     print("login with %s and %s" % (username, password))
 
 login("Keshav", "Pass@123")
+
+def login(username, password):
+    print(username, password)
+
+login("keshav", "test123")
+
+login(username = "keshavtest", password="test@123")
