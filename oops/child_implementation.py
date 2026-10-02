@@ -1,4 +1,4 @@
-from constructor import Calculator
+from oops.constructor import Calculator
 
 
 class ChildImpl(Calculator):
